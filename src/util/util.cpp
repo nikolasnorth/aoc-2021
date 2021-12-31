@@ -1,6 +1,7 @@
 #include "util.h"
 
 namespace aoc2021::util {
+
   auto ReadLines(const std::string &filename) -> std::vector<std::string> {
     std::ifstream infile{ filename };
     if (!infile.is_open()) {
@@ -13,4 +14,5 @@ namespace aoc2021::util {
     }
     return lines;
   }
+
 }
