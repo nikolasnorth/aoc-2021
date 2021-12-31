@@ -3,6 +3,6 @@ project(aoc_2021)
 
 set(CMAKE_CXX_STANDARD 20)
 
-set(SOURCE src/main.cpp src/day1.cpp src/day1.h)
+set(SOURCE src/main.cpp src/day1/day1.cpp src/day1/day1.h src/util/util.cpp src/util/util.h)
 
 add_executable(aoc_2021 ${SOURCE})

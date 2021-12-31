@@ -4,6 +4,8 @@
 #include <fstream>
 #include <iostream>
 
-namespace day1 {
+namespace aoc2021::day1 {
+
   auto Part1(const std::string &filename) -> unsigned int;
+
 }
