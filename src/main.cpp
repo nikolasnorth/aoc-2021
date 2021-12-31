@@ -1,9 +1,9 @@
 #include <string>
 #include <iostream>
 
-#include "day1/day1.h"
+#include "day2/day2.h"
 
 int main() {
   const std::string &filename = "../input.txt";
-  std::cout << aoc2021::day1::Part2(filename) << '\n';
+  std::cout << aoc2021::day2::Part1(filename) << '\n';
 }
